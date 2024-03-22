@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+body{
+    font-family: "Capriola", sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    height: 5rem;
+    color: greenyellow;
+    background-color: #081b31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+}
+
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 4rem;
+}
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    background-color:white;
+    color: black;
+}
+#user-score, 
+#comp-score{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+#msg{
+    font-size: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    /* margin-left: 30vw; */
+    margin-top: 8rem;
+    background-color: #081b31;
+    color: greenyellow;
+    padding: 1rem;
+    border-radius: 10%;
+}
